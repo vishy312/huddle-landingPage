@@ -1,0 +1,12 @@
+$mobile-width: 375px;
+$desktop-width: 1440px;
+$heading-footerBg: hsl(192, 100%, 9%);
+$buttonsBg: hsl(322, 100%, 66%);
+$paragraph-text: hsl(208, 11%, 55%);
+$main-cardBg: hsl(193, 100%, 96%);
+
+@mixin center-everything {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
