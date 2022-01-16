@@ -10,3 +10,7 @@ $main-cardBg: hsl(193, 100%, 96%);
     justify-content: center;
     align-items: center;
 }
+
+@mixin border($color) {
+    border: 1px solid $color;
+}
