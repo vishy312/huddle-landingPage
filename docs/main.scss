@@ -101,6 +101,7 @@ header {
 .join-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  background-color: white;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -109,8 +110,7 @@ header {
   padding: 2em 0.5em;
   margin: auto;
   position: relative;
-  top: 100px;
-  z-index: 200;
+  top: 50px;
   h2 {
     color: $heading-footerBg;
     font-family: "Poppins", sans-serif;
@@ -127,9 +127,11 @@ footer {
   background-color: $heading-footerBg;
   color: white;
   padding: 5em 1em 0 0.3em;
-  .address, .phone, .mail {
+  .address,
+  .phone,
+  .mail {
     display: flex;
-    align-items:baseline;
+    align-items: baseline;
     img {
       width: 5%;
       height: 1%;
@@ -143,18 +145,23 @@ footer {
 .extras a {
   text-decoration: none;
   color: white;
-  display:block;
+  display: block;
   margin-top: 1em;
   font-size: 1rem;
 }
 .social {
-  margin: 2em 0 1em 0;
+  width: 40%;
+  margin: 2em auto 1em auto;
   @include center-everything;
+  display: flex;
+  justify-content: space-around;
 }
 .copyright {
   @include center-everything;
   p {
     font-size: 0.5rem;
   }
-  
+}
+.footer-main-content {
+  padding-left: 1em;
 }

@@ -114,6 +114,7 @@ header .try-btn {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  background-color: white;
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -130,8 +131,7 @@ header .try-btn {
   padding: 2em 0.5em;
   margin: auto;
   position: relative;
-  top: 100px;
-  z-index: 200;
+  top: 50px;
 }
 
 .join-card h2 {
@@ -151,7 +151,9 @@ footer {
   padding: 5em 1em 0 0.3em;
 }
 
-footer .address, footer .phone, footer .mail {
+footer .address,
+footer .phone,
+footer .mail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,12 +162,16 @@ footer .address, footer .phone, footer .mail {
           align-items: baseline;
 }
 
-footer .address img, footer .phone img, footer .mail img {
+footer .address img,
+footer .phone img,
+footer .mail img {
   width: 5%;
   height: 1%;
 }
 
-footer .address p, footer .phone p, footer .mail p {
+footer .address p,
+footer .phone p,
+footer .mail p {
   font-size: 0.8rem;
   margin-left: 1.5em;
 }
@@ -179,7 +185,8 @@ footer .address p, footer .phone p, footer .mail p {
 }
 
 .social {
-  margin: 2em 0 1em 0;
+  width: 40%;
+  margin: 2em auto 1em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,6 +196,9 @@ footer .address p, footer .phone p, footer .mail p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .copyright {
@@ -205,5 +215,9 @@ footer .address p, footer .phone p, footer .mail p {
 
 .copyright p {
   font-size: 0.5rem;
+}
+
+.footer-main-content {
+  padding-left: 1em;
 }
 /*# sourceMappingURL=main.css.map */
