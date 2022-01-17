@@ -42,6 +42,10 @@ header .try-btn {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
+header .try-btn:hover {
+  color: #808d99;
+}
+
 .main-card {
   background-color: #ebfbff;
   background-image: url(images/bg-hero-mobile.svg);
@@ -75,6 +79,10 @@ header .try-btn {
   height: 40px;
   margin-left: 15px;
   cursor: pointer;
+}
+
+.btn:hover, .join-card button:hover {
+  opacity: 0.7;
 }
 
 .main-card-image {
@@ -184,6 +192,10 @@ footer .mail p {
   font-size: 1rem;
 }
 
+.extras a:hover {
+  text-decoration: underline;
+}
+
 .social {
   width: 40%;
   margin: 2em auto 1em auto;
@@ -199,6 +211,11 @@ footer .mail p {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  cursor: pointer;
+}
+
+i:hover {
+  color: #ff52bf;
 }
 
 .copyright {

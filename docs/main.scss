@@ -35,6 +35,9 @@ header {
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   }
+  .try-btn:hover {
+    color: $paragraph-text;
+  }
 }
 
 .main-card {
@@ -67,6 +70,9 @@ header {
   height: 40px;
   margin-left: 15px;
   cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.7;
 }
 
 .main-card-image {
@@ -149,12 +155,19 @@ footer {
   margin-top: 1em;
   font-size: 1rem;
 }
+.extras a:hover {
+  text-decoration: underline;
+}
 .social {
   width: 40%;
   margin: 2em auto 1em auto;
   @include center-everything;
   display: flex;
   justify-content: space-around;
+  cursor: pointer;
+}
+i:hover {
+  color: $buttonsBg;
 }
 .copyright {
   @include center-everything;
